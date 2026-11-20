@@ -13,7 +13,7 @@ function SidebarButton({name, mode, setMode}) {
 
 const Sidebar = ({mode, setMode}) => {
   return (
-    <div className="hidden md:flex flex-col bg-zinc-900 min-h-screen w-65 left-0 items-center justify-center gap-5">
+    <div className="flex flex-col bg-zinc-900 w-full md:w-65 min-h-0 md:min-h-screen items-center justify-center gap-5 p-8">
       <SidebarButton name={"Custom"} mode={mode} setMode={setMode}/>
       <SidebarButton name={"CS"} mode={mode} setMode={setMode}/>
       <SidebarButton name={"Maths"} mode={mode} setMode={setMode}/>
