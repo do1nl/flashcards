@@ -8,19 +8,59 @@ const otherFlashcards = {
     {
       question: "What is the Control Unit (CU)",
       answer: "The control unit decodes the instruction and controls the flow of data"
+    },
+    {
+      question: "What is the internet",
+      answer: "A system of interconnected computer network"
+    },
+    {
+      question: "What is cache",
+      answer: "Component that stores frequently accessed files and instructions"
+    },
+    {
+      question: "What does the DHCP protocol do",
+      answer: "The Dynamic Host Configuration Protocol (DHCP) automatically assigns IP addresses to devices on a network"
     }
   ],
   maths: [
     {
       question: "Name the equation x^2 + y^2 = r^2",
       answer: "Circle Equation"
+    },
+    {
+      question: "What is the formula for Variance",
+      answer: "Var(X) = E(X^2) - [E(X)]^2"
+    },
+    {
+      question: "What is the num of r^3 in terms of n",
+      answer: "(n^2)/4 * n^2 * (n+1)^2"
+    },
+    {
+      question: "What is the sum of r^2 in terms of n",
+      answer: "n/6 * (n+1) * (2n+1)"
     }
   ],
   geography: [
     {
       question: "What is the capital city of Burkina Faso",
       answer: "Ouagadoudou"
-    }
+    },
+    {
+      question: "What is the largest mountain range in South America",
+      answer: "Andes"
+    },
+    {
+      question: "What is the largest country by land area in Africa",
+      answer: "Algeria"
+    },
+    {
+      question: "In which Canadian Province is Vancouver in",
+      answer: "British Columbia"
+    },
+    {
+      question: "Which european country has the largest population",
+      answer: "Russia"
+    },
   ]
 }
 
