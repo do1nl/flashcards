@@ -33,7 +33,7 @@ const App = () => {
   const [mode, setMode] = useState("Custom");
 
   return (
-    <div className="flex flex-row min-h-screen">
+    <div className="flex flex-col md:flex-row min-h-screen">
       <Sidebar mode={mode} setMode={setMode} className="w-1/6"/>
       <div className="flex flex-1 flex-col items-center bg-zinc-800 min-h-screen">
         
@@ -50,7 +50,7 @@ const App = () => {
         }
 
 
-        <div className="flex flex-1 items-center justify-center w-3/8">
+        <div className="flex flex-1 items-center justify-center w-full min-w-0 px-4 md:w-3/8 md:px-0">
           {isAdding ? 
             (
               <AddFlashcard setFlashcards={setFlashcards} setIsAdding={setIsAdding}/>
